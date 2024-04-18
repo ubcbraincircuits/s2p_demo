@@ -7,5 +7,30 @@ Ensure you either <a href="https://www.anaconda.com/download">install Anaconda</
 You can verify that you have Anaconda if you have Anaconda Navigator in your applications. You can also verify by running the command ```conda --version``` in the Terminal (Mac/Linux) or the Anaconda Prompt application (Windows).
 
 # Environment Setup
-Open Terminal/Anaconda Prompt and navigate to the "S2P_DEMO" folder that you just unzipped.
+1. Click the green "Code" button at the top of the page and select "Download Zip". This will download "s2p_demo-main.zip" onto your computer. Unzip this file, and (if you'd like), move it to your desired directory on your local computer.
+
+2. Open Terminal/Anaconda Prompt and navigate to your unzipped "s2p_demo-main" folder.
+
+>NOTE: use the commands ls to see subdirectories and cd <subdirectory> to navigate through your files. You can use cd .. to go to the parent directory.
+
+3. In your Terminal/Anaconda Prompt, enter the following command:
+ ```
+ conda env create -f suite2p.yml
+ ```
+
+# Activate the Environment
+
+Activate environment with ```conda activate suite2p```.
+
+To activate Jupyter Notebooks, you can either:
+
+Open the Anaconda Navigator application and press "Launch" on Jupyter Notebook.
+Open Terminal/Anaconda Prompt and run this command in the deeplabcut environment:
+```
+jupyter notebook
+```
+This will open up the Jupyter Notebook Home Page in your default browser. You will need to navigate to where "s2p_demo-main" is located on your computer. In this folder, open "s2p_tutorial.ipynb" to start.
+
+Then, you need to run the Jupyter Notebook using the suite2p environment we just created. You can modify this by going 
+<br><b>Kernel > Change Kernel > Python [conda env:suite2p].</b>
 
