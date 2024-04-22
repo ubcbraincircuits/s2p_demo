@@ -1,4 +1,2 @@
-/my_files/*
-!/my_files/videos/videos.txt
-!/my_files/working_dir/working_dir.txt
-!/my_files/working_dir/dlc_trained_model/dlc-model/*
+/my_files/data/*
+/my_files/working_dir/*
