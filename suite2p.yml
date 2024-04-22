@@ -5,8 +5,12 @@ channels:
 dependencies:
   - pip=23.3.1
   - python=3.9
+  - ipython
+  - jupyter
+  - nb_conda
+  - notebook<7.0.0
+  - ffmpeg
   - pip:
     - suite2p[gui]
     - 'suite2p[gui]'
     - suite2p[io]
-    - ipykernel
