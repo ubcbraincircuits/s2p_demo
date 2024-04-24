@@ -1,0 +1,1 @@
+This directory is where you will conduct part 1 of the suite2p demo. In the OSF page [https://osf.io/ztcnm/?view_only=59d6948657a742f688b4cac9ad1f54e9], download the file titled 'M210914_DYN_20114_FB.tiff' and move it into the folder in this directory labelled 'data'.
