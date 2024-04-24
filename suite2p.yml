@@ -10,7 +10,16 @@ dependencies:
   - nb_conda
   - notebook<7.0.0
   - ffmpeg
+  - ipykernel
   - pip:
     - suite2p[gui]
     - 'suite2p[gui]'
     - suite2p[io]
+    - numpy
+    - matplotlib
+    - pandas
+    - tables
+    - seaborn 
+    - h5py 
+    - scikit-learn
+    - tqdm
