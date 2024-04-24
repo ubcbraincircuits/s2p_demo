@@ -1,3 +1,5 @@
 /.idea
-/my_files/
-!*/my_files/test_run/data/data.txt
+my_files/*
+!my_files/*.txt
+!my_files/*/*.txt
+!my_files/*/*/*.txt
