@@ -1,5 +1,2 @@
-/.idea
 my_files/*
-!my_files/*.txt
-!my_files/*/*.txt
-!my_files/*/*/*.txt
+!my_files/**/*.txt
