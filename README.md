@@ -32,6 +32,8 @@ Ensure you either <a href="https://www.anaconda.com/download">install Anaconda</
 
 You can verify that you have Anaconda if you have Anaconda Navigator in your applications. You can also verify by running the command ```conda --version``` in the Terminal (Mac/Linux) or the Anaconda Prompt application (Windows).
 
+>NOTE: We have found in tests prior to this demo workshop that performance of Suite2p on Intel Macs was slightly less reliable in comparison to other CPUs. If you encounter issues running Suite2p on your computer, please find a partner to work with for this demo.
+
 # Environment Setup
 1. Open Terminal/Anaconda Prompt and navigate to your unzipped "s2p_demo-main" folder.
 
